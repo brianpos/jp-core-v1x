@@ -9,7 +9,7 @@ Usage: #definition
 * code = #jp-insurance-organizationcategory
 * base = #Organization
 * type = #token
-* expression = "Organization.extension.where(url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationCategory').value.as(code)"
+* expression = "Organization.extension('http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationCategory').value"
 * xpath = "f:Organization/f:extension[@url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationCategory']/f:valueCoding/f:code"
 * xpathUsage = #normal
 * multipleOr = true
@@ -30,7 +30,7 @@ Usage: #definition
 * code = #jp-insurance-organizationno
 * base = #Organization
 * type = #token
-* expression = "Organization.extension.where(url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationNo').value.as(code)"
+* expression = "Organization.extension('http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationNo').value"
 * xpath = "f:Organization/f:extension[@url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationNo']/f:valueCoding/f:code"
 * xpathUsage = #normal
 * multipleOr = true
@@ -52,7 +52,7 @@ Usage: #definition
 * code = #jp-prefectureno
 * base = #Organization
 * type = #token
-* expression = "Organization.extension.where(url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_PrefectureNo').value.as(code)"
+* expression = "Organization.extension('http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_PrefectureNo').value"
 * xpath = "f:Organization/f:extension[@url='http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_PrefectureNo']/f:valueCoding/f:code"
 * xpathUsage = #normal
 * multipleOr = true
